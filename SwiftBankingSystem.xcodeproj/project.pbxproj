@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87EB836254FC2E4005503C1 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87EB835254FC2E4005503C1 /* Customer.swift */; };
+		C87EB83A254FC30E005503C1 /* CustomerPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87EB839254FC30E005503C1 /* CustomerPanel.swift */; };
+		C87F9C6F254C534B0078E4B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C6E254C534B0078E4B8 /* main.swift */; };
+		C87F9C79254C547F0078E4B8 /* BaseTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C78254C547F0078E4B8 /* BaseTransaction.swift */; };
+		C87F9C7C254C54910078E4B8 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C7B254C54910078E4B8 /* Deposit.swift */; };
+		C87F9C7F254C54A00078E4B8 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C7E254C54A00078E4B8 /* Transfer.swift */; };
+		C87F9C82254C54B00078E4B8 /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C81254C54B00078E4B8 /* Withdraw.swift */; };
+		C87F9C86254C54C20078E4B8 /* TransactionPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C85254C54C20078E4B8 /* TransactionPanel.swift */; };
+		C87F9C89254C54CE0078E4B8 /* SystemRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C88254C54CE0078E4B8 /* SystemRepo.swift */; };
+		C87F9C8C254C54DF0078E4B8 /* BillPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C8B254C54DF0078E4B8 /* BillPayment.swift */; };
+		C87F9C8F254C54EA0078E4B8 /* MobilePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F9C8E254C54EA0078E4B8 /* MobilePayment.swift */; };
+		C88ECEB2254F057100F6B752 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEB1254F057100F6B752 /* Account.swift */; };
+		C88ECEB6254F057E00F6B752 /* AccountPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEB5254F057E00F6B752 /* AccountPanel.swift */; };
+		C88ECEB9254F058900F6B752 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEB8254F058900F6B752 /* Current.swift */; };
+		C88ECEBC254F059F00F6B752 /* Fixeddeposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEBB254F059F00F6B752 /* Fixeddeposit.swift */; };
+		C88ECEBF254F05A800F6B752 /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEBE254F05A800F6B752 /* Joint.swift */; };
+		C88ECEC2254F05B700F6B752 /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEC1254F05B700F6B752 /* Saving.swift */; };
+		C88ECEC8254F165E00F6B752 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ECEC7254F165E00F6B752 /* UserDefaultManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C87F9C69254C534B0078E4B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C87EB835254FC2E4005503C1 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		C87EB839254FC30E005503C1 /* CustomerPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPanel.swift; sourceTree = "<group>"; };
+		C87F9C6B254C534B0078E4B8 /* SwiftBankingSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftBankingSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87F9C6E254C534B0078E4B8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C87F9C78254C547F0078E4B8 /* BaseTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTransaction.swift; sourceTree = "<group>"; };
+		C87F9C7B254C54910078E4B8 /* Deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		C87F9C7E254C54A00078E4B8 /* Transfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		C87F9C81254C54B00078E4B8 /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+		C87F9C85254C54C20078E4B8 /* TransactionPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPanel.swift; sourceTree = "<group>"; };
+		C87F9C88254C54CE0078E4B8 /* SystemRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemRepo.swift; sourceTree = "<group>"; };
+		C87F9C8B254C54DF0078E4B8 /* BillPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPayment.swift; sourceTree = "<group>"; };
+		C87F9C8E254C54EA0078E4B8 /* MobilePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePayment.swift; sourceTree = "<group>"; };
+		C88ECEB1254F057100F6B752 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C88ECEB5254F057E00F6B752 /* AccountPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPanel.swift; sourceTree = "<group>"; };
+		C88ECEB8254F058900F6B752 /* Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		C88ECEBB254F059F00F6B752 /* Fixeddeposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixeddeposit.swift; sourceTree = "<group>"; };
+		C88ECEBE254F05A800F6B752 /* Joint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		C88ECEC1254F05B700F6B752 /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		C88ECEC7254F165E00F6B752 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87F9C68254C534B0078E4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87EB834254FC2D8005503C1 /* customer */ = {
+			isa = PBXGroup;
+			children = (
+				C87EB835254FC2E4005503C1 /* Customer.swift */,
+				C87EB839254FC30E005503C1 /* CustomerPanel.swift */,
+			);
+			path = customer;
+			sourceTree = "<group>";
+		};
+		C87F9C62254C534B0078E4B8 = {
+			isa = PBXGroup;
+			children = (
+				C87F9C6D254C534B0078E4B8 /* SwiftBankingSystem */,
+				C87F9C6C254C534B0078E4B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87F9C6C254C534B0078E4B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87F9C6B254C534B0078E4B8 /* SwiftBankingSystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87F9C6D254C534B0078E4B8 /* SwiftBankingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C87EB834254FC2D8005503C1 /* customer */,
+				C87F9C88254C54CE0078E4B8 /* SystemRepo.swift */,
+				C88ECEB0254F055900F6B752 /* account */,
+				C87F9C76254C537A0078E4B8 /* transaction */,
+				C87F9C6E254C534B0078E4B8 /* main.swift */,
+				C88ECEC7254F165E00F6B752 /* UserDefaultManager.swift */,
+			);
+			path = SwiftBankingSystem;
+			sourceTree = "<group>";
+		};
+		C87F9C76254C537A0078E4B8 /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				C87F9C7E254C54A00078E4B8 /* Transfer.swift */,
+				C87F9C77254C53890078E4B8 /* payment */,
+				C87F9C78254C547F0078E4B8 /* BaseTransaction.swift */,
+				C87F9C7B254C54910078E4B8 /* Deposit.swift */,
+				C87F9C81254C54B00078E4B8 /* Withdraw.swift */,
+				C87F9C85254C54C20078E4B8 /* TransactionPanel.swift */,
+			);
+			path = transaction;
+			sourceTree = "<group>";
+		};
+		C87F9C77254C53890078E4B8 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				C87F9C8B254C54DF0078E4B8 /* BillPayment.swift */,
+				C87F9C8E254C54EA0078E4B8 /* MobilePayment.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		C88ECEB0254F055900F6B752 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				C88ECEB1254F057100F6B752 /* Account.swift */,
+				C88ECEB5254F057E00F6B752 /* AccountPanel.swift */,
+				C88ECEB8254F058900F6B752 /* Current.swift */,
+				C88ECEBB254F059F00F6B752 /* Fixeddeposit.swift */,
+				C88ECEBE254F05A800F6B752 /* Joint.swift */,
+				C88ECEC1254F05B700F6B752 /* Saving.swift */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87F9C6A254C534B0078E4B8 /* SwiftBankingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87F9C72254C534B0078E4B8 /* Build configuration list for PBXNativeTarget "SwiftBankingSystem" */;
+			buildPhases = (
+				C87F9C67254C534B0078E4B8 /* Sources */,
+				C87F9C68254C534B0078E4B8 /* Frameworks */,
+				C87F9C69254C534B0078E4B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBankingSystem;
+			productName = SwiftBankingSystem;
+			productReference = C87F9C6B254C534B0078E4B8 /* SwiftBankingSystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87F9C63254C534B0078E4B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C87F9C6A254C534B0078E4B8 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C87F9C66254C534B0078E4B8 /* Build configuration list for PBXProject "SwiftBankingSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87F9C62254C534B0078E4B8;
+			productRefGroup = C87F9C6C254C534B0078E4B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87F9C6A254C534B0078E4B8 /* SwiftBankingSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87F9C67254C534B0078E4B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87EB83A254FC30E005503C1 /* CustomerPanel.swift in Sources */,
+				C88ECEC2254F05B700F6B752 /* Saving.swift in Sources */,
+				C88ECEBF254F05A800F6B752 /* Joint.swift in Sources */,
+				C88ECEC8254F165E00F6B752 /* UserDefaultManager.swift in Sources */,
+				C87F9C7C254C54910078E4B8 /* Deposit.swift in Sources */,
+				C87F9C86254C54C20078E4B8 /* TransactionPanel.swift in Sources */,
+				C87F9C82254C54B00078E4B8 /* Withdraw.swift in Sources */,
+				C88ECEB9254F058900F6B752 /* Current.swift in Sources */,
+				C87F9C6F254C534B0078E4B8 /* main.swift in Sources */,
+				C88ECEBC254F059F00F6B752 /* Fixeddeposit.swift in Sources */,
+				C87F9C7F254C54A00078E4B8 /* Transfer.swift in Sources */,
+				C88ECEB2254F057100F6B752 /* Account.swift in Sources */,
+				C87EB836254FC2E4005503C1 /* Customer.swift in Sources */,
+				C88ECEB6254F057E00F6B752 /* AccountPanel.swift in Sources */,
+				C87F9C8C254C54DF0078E4B8 /* BillPayment.swift in Sources */,
+				C87F9C79254C547F0078E4B8 /* BaseTransaction.swift in Sources */,
+				C87F9C8F254C54EA0078E4B8 /* MobilePayment.swift in Sources */,
+				C87F9C89254C54CE0078E4B8 /* SystemRepo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C87F9C70254C534B0078E4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87F9C71254C534B0078E4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C87F9C73254C534B0078E4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C87F9C74254C534B0078E4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87F9C66254C534B0078E4B8 /* Build configuration list for PBXProject "SwiftBankingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87F9C70254C534B0078E4B8 /* Debug */,
+				C87F9C71254C534B0078E4B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87F9C72254C534B0078E4B8 /* Build configuration list for PBXNativeTarget "SwiftBankingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87F9C73254C534B0078E4B8 /* Debug */,
+				C87F9C74254C534B0078E4B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87F9C63254C534B0078E4B8 /* Project object */;
+}
